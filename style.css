@@ -1,0 +1,56 @@
+.body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+.nav-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;/* Центрування меню по горизонталі */
+    align-items: center;/* Центрування пунктів меню по вертикалі */
+}
+.nav-list li{
+    position: relative;
+    margin-right: 15px;
+}
+.nav-list a{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 20px 30px;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+}
+.nav-list a:hover{
+    background-color: rgb(70, 70, 69);
+}
+.dropdown-content{
+    display: none;/*приховує меню*/
+    position: absolute;
+    background-color: black;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.content{
+    width: 50%;
+    text-align: left;
+}
+ .left-content h2{
+    font-weight: bold;
+    font-size: 30px;
+ }
