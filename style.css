@@ -5,11 +5,9 @@
 }
 .nav-list{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;/* Центрування меню по горизонталі */
-    align-items: center;/* Центрування пунктів меню по вертикалі */
+    align-items: center;/*Центрування пунктів меню по вертикалі*/
 }
 .nav-list li{
     position: relative;
@@ -50,7 +48,27 @@
     width: 50%;
     text-align: left;
 }
+.left-content{
+    width: 60%;
+}
  .left-content h2{
     font-weight: bold;
     font-size: 30px;
+    left: 10%;
  }
+ .right-content{
+    width: 35%; 
+    float: right;
+    margin-left: 20px; 
+    margin-top: 50px;
+    width: 35%;
+ }
+ .content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+ }
+.Photo{
+    max-width: 100%;
+    height: auto;
+}
