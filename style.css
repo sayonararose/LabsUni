@@ -3,6 +3,18 @@
     background-color: #f4f4f4;
     margin: 0;
 }
+
+.content{
+    width: 50%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
 .nav-list{
     list-style-type: none;
     display: flex;
@@ -43,11 +55,6 @@
 .dropdown:hover .dropdown-content{
     display: block;
 }
-
-.content{
-    width: 50%;
-    text-align: left;
-}
 .left-content{
     width: 60%;
 }
@@ -71,4 +78,132 @@
 .Photo{
     max-width: 100%;
     height: auto;
+}
+
+/* стиль для інформаційного блоку */
+.info{
+    background-color: #e0f7ff;
+    padding: 20px;
+    text-align: center;
+    margin: 50px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+.info-content {
+    margin-bottom: 10px;
+}
+.info-content h1{
+    color: orange;
+    font-size: 35px;
+    font-weight: bold;
+}
+.info-content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+.info-content p {
+    font-size: 18px;
+    max-width: 800px;
+    font-weight: normal;
+    margin: 0 auto;
+}
+.photo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.img-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 50px auto;
+    width: 80%;
+    padding: 20px;
+    background-color: #e0f7ff;
+    border-radius: 10px;
+}
+.photo-container {
+    width: 40%;
+    text-align: center; 
+}
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    width: 45%;
+}
+.logos img {
+    width: calc(25% - 10px);
+    height: auto;
+    border-radius: 5px;
+}
+.caption {
+    color: grey;
+    text-align: left;
+}
+/* стилізація  карток */
+.courses{
+    background-color: #2e2d2d;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+.courses h1{
+    font-size: 28px;
+    color: orange;
+}
+.courses-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.course-logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 15px;
+}
+.course-card {
+    background-color: #141414;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.course-card ul{
+    text-align: left;
+}
+.course-card li{
+    list-style-type: none;
+}
+.button-info{
+    background-color: #141414;
+    color: white;
+    text-decoration: none;  
+}
+.button-info:hover{
+    background-color: #2e2d2d;
+}
+/* стилізація футеру */
+.footer-content{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-logos {
+    display: flex;
+    gap: 15px;
+}
+.social-logo {
+    width: 50px;
+    height: auto;
+    transition: filter 0.3s;
 }
