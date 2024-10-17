@@ -207,3 +207,13 @@
     height: 30px;
     transition: filter 0.3s;
 }
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column; /* Виставляє пункти меню в колонку */
+        align-items: сenter; 
+    }
+    .nav-list li {
+        margin-right: 0; /* Знімає правий відступ */
+        margin-bottom: 10px; /* Додає відступ між пунктами */
+    }
+}
