@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="table2.css">
+    <title>Document</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <table>
+            <tr>
+                <td class="header" colspan="3">1</td> <!-- Щоб охопити клітинку кількома стовпцями використовуємо сolspan -->
+            </tr>
+            <tr>
+                <td class="left" rowspan="2">2</td> <!-- щоб охопити клітинку кількома рядками використовуємо rowspan-->
+                <td class="top" colspan="2">5</td>
+            </tr>
+            <tr>
+                <td class="main" colspan="2">4</td>
+            </tr>
+            <tr>
+                <td class="footer" colspan="3">3</td>
+            </tr>
+        </table>
+    </main>
+    <footer></footer>
+</body>
+</html>
